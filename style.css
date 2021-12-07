@@ -1,0 +1,109 @@
+body {
+	background-color: #19123d;
+}
+
+h1 {
+	color: #d7d3e8;
+	font-family: 'Shippori Antique', sans-serif;
+	font-size: 40px;
+	margin-left:  50px;
+}
+
+
+#special {
+	color: #b4cff0;
+}
+
+#specialTwo {
+	color: #b4cff0;
+	font-size: 30px;
+	position:  relative;
+	top: -12px;
+}
+
+.img {
+	float: left;
+	margin-left:  50px;
+	margin-right: 20px;
+	padding-bottom: 10px;
+}
+
+
+#bgInfoT, #questT {
+	position: relative;
+	margin-top:  0px;
+	margin-bottom: 0px;
+}
+
+p {
+	color: #d7d3e8;
+	font-family: 'Shippori Antique', sans-serif;
+	margin-left: 50px;
+	margin-right: 250px;
+	font-size: 14px;
+
+}
+
+a {
+	color: #d7d3e8;
+	font-family: 'Inconsolata', monospace;
+	text-decoration:  none;
+	margin-right: 36px;
+	font-size:  12px;
+}
+
+a:hover {
+	color: #b4cff0;
+}
+
+a.aboutMeL {
+	margin-left: 50px;
+}
+
+a.linkP {
+	font-family: 'Shippori Antique', sans-serif;
+	font-size: 14px;
+	margin-right: 0px;
+}
+
+#h {
+	color: #b4cff0;
+}
+
+.finalP {
+	padding-bottom:  300px;
+}
+
+.bottomP {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Inconsolata', monospace;
+}
+
+.questPH {
+	margin-bottom: 20px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #19123d;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b4cff0;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9ebfe8;
+}
