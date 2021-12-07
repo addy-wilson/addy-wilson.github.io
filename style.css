@@ -85,6 +85,10 @@ a.linkP {
 	margin-bottom: 20px;
 }
 
+img {
+	border-radius: 20px;
+	width: 250px;
+}
 
 /* width */
 ::-webkit-scrollbar {
