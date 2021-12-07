@@ -85,9 +85,14 @@ a.linkP {
 	margin-bottom: 20px;
 }
 
-img {
+img[src="images/myphoto.jpg"] {
 	border-radius: 20px;
 	width: 250px;
+}
+
+img[src="images/businesscard.png"] {
+	border-radius: 20px;
+	width: 500px;
 }
 
 /* width */
