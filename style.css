@@ -1,6 +1,10 @@
+/* BACKGROUND */
+
 body {
 	background-color: #19123d;
 }
+
+/* HEADING AND PARAGRAPH */
 
 h1 {
 	color: #d7d3e8;
@@ -9,41 +13,19 @@ h1 {
 	margin-left:  50px;
 }
 
-
-#special {
-	color: #b4cff0;
-}
-
-#specialTwo {
-	color: #b4cff0;
-	font-size: 30px;
-	position:  relative;
-	top: -12px;
-}
-
-.img {
-	float: left;
-	margin-left:  50px;
-	margin-right: 20px;
-	padding-bottom: 10px;
-}
-
-
-#bgInfoT, #questT {
-	position: relative;
-	margin-top:  0px;
-	margin-bottom: 0px;
-}
-
 p {
 	color: #d7d3e8;
 	font-family: 'Shippori Antique', sans-serif;
 	margin-left: 50px;
-	margin-right: 250px;
+	margin-right: 175px;
 	font-size: 14px;
+	text-align: justify;
 
 }
 
+/* LINKS */
+
+/* links inside of navigation bar*/
 a {
 	color: #d7d3e8;
 	font-family: 'Inconsolata', monospace;
@@ -56,18 +38,71 @@ a:hover {
 	color: #b4cff0;
 }
 
+/* first link in navigation bar*/
 a.aboutMeL {
 	margin-left: 50px;
 }
 
+/* link outside of navigation bar*/
 a.linkP {
 	font-family: 'Shippori Antique', sans-serif;
 	font-size: 14px;
 	margin-right: 0px;
 }
 
-#h {
+/* IDs */
+
+/* alters color to blue */
+#special {
 	color: #b4cff0;
+}
+
+/* used for 1st subheading to change color, size, and placement */
+#specialTwo {
+	color: #b4cff0;
+	font-size: 30px;
+	position:  relative;
+	top: -12px;
+}
+
+/* used for 2nd subheading to change color, size, and placement */
+#specialThree {
+	color: #b4cff0;
+	font-size: 30px;
+	position:  absolute;
+	top: -80px;
+}
+
+/* fix spacing for subheadings */
+#bgInfoT {
+	position: relative;
+	margin-top:  0px;
+	margin-bottom: 0px;
+}
+
+#questT {
+	position: relative;
+	margin-top:  75px;
+	margin-bottom: 0px;
+}
+
+#workPortT, #visionT, #finalT {
+	margin-top: 75px;
+}
+
+
+/* CLASS */
+
+.column {
+	overflow: hidden;
+	float: left;
+	width: 50%;
+}
+
+.row:after {
+	content:  "";
+	display:  table;
+	clear: both;
 }
 
 .finalP {
@@ -85,6 +120,15 @@ a.linkP {
 	margin-bottom: 20px;
 }
 
+/* IMAGES */
+
+.img {
+	float: left;
+	margin-left:  50px;
+	margin-right: 20px;
+	padding-bottom: 10px;
+}
+
 img[src="images/myphoto.jpg"] {
 	border-radius: 20px;
 	width: 250px;
@@ -92,27 +136,31 @@ img[src="images/myphoto.jpg"] {
 
 img[src="images/businesscard.png"] {
 	border-radius: 20px;
-	width: 500px;
+	width: 330px;
 }
+
+
+/* HANDLEBAR */
 
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
-/* Track */
+/* track */
+/* made to blend into the bg color */
 ::-webkit-scrollbar-track {
   background: #19123d;
   border-radius: 20px;
 }
 
-/* Handle */
+/* handle */
 ::-webkit-scrollbar-thumb {
   background: #b4cff0;
   border-radius: 20px;
 }
 
-/* Handle on hover */
+/* handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #9ebfe8;
 }
